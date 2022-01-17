@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-slider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Owl Carousel -->
+  <link href="plugins/slick-carousel/slick/slick.css" rel="stylesheet">
+  <link href="plugins/slick-carousel/slick/slick-theme.css" rel="stylesheet">
+  <!-- Fancy Box -->
+  <link href="plugins/fancybox/jquery.fancybox.pack.css" rel="stylesheet">
+  <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- modal dependencies -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <!-- scripts -->
+  <script src="/script.js"></script>
+
+
+
+
+  <!-- https://github.com/Laravel-Backpack/PageManager -->
+</head>
+
+
+<body>
+  <!-- CUm1 -->
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light navigation">
+            <a class="navbar-brand" href="index.html">
+              <img src="https://es.seaicons.com/wp-content/uploads/2015/08/Home-Cityhall-icon.png" alt="" width="56" height="56" href="index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto main-nav ">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Ayuntamiento</a>
+                </li> -->
+                <li class="nav-item dropdown dropdown-slide">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Eventos<span><i
+                        class="fa fa-angle-down"></i></span>
+                  </a>
+
+                  <!-- Dropdown list -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="evento1.html">Evento1</a>
+                    <a class="dropdown-item" href="evento2.html">Evento2</a>
+                    <a class="dropdown-item" href="evento3.html">Evento3</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown dropdown-slide">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Pages <span><i class="fa fa-angle-down"></i></span>
+                  </a>
+                  <!-- Dropdown list -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="drogaporro1.html">About Us</a>
+                    <a class="dropdown-item" href="hastaloshuevos.html">Contact Us</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown dropdown-slide">
+                  <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Mierdas pa poner <span><i class="fa fa-angle-down"></i></span>
+                  </a>
+                  <!-- Dropdown list -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="htmldasgrima.html">Otra mierda</a>
+                    <a class="dropdown-item" href="2tirosmepego.html">Otra mierda 2</a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto mt-10">
+                <li class="nav-item">
+                  <a class="nav-link login-button" href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Cum2 -->
+
+  <section class="hero-area bg-1 text-center overly">
+    <!-- Container Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Advance Search -->
+          <div class="advance-search">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 align-content-center">
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <input type="text" class="form-control my-2 my-lg-1" id="inputtext4"
+                          placeholder="¿ Que evento buscas ?">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <select class="w-100 form-control mt-lg-1 mt-md-2">
+                          <option>Todos</option>
+                          <option value="1">Mobilidad</option>
+                          <option value="2">Deportes</option>
+                          <option value="3">Cultura</option>
+                        </select>
+                      </div>
+                      <!-- <div class="form-group col-md-3">
+													<input type="text" class="form-control my-2 my-lg-1" id="inputLocation4" placeholder="Location">
+												</div> -->
+                      <input class="form-group col-md-3 glyphicon glyphicon-calendar" type="date">
+                      <div class="form-group col-md-2 align-self-center">
+                        <button type="submit" class="btn btn-primary">Buscar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Container End -->
+  </section>
+
+  <!-- NavBar -->
+
+  <div class="headerContainer">
+    <!-- Carrusel -->
+
+    <!-- End Carrusel -->
+    <div class="container">
+      <h2>Modal Login Example</h2>
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Bootstrap 5 Modal Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Email Address</label>
+                  <input type="text" class="form-control" id="username" name="username" placeholder="Username" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe" />
+                  <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+                <div class="modal-footer d-block">
+                  <p class="float-start">Not yet account <a href="#">Sign Up</a></p>
+                  <button type="submit" class="btn btn-warning float-end">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+
+<!-- Bootstrap JS -->
+<script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+
+</html>
